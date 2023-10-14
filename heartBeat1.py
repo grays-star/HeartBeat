@@ -3,7 +3,7 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
-motor1pin = 11
+motor1pin = 12
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(motor1pin, GPIO.OUT)
